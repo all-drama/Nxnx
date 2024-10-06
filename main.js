@@ -52,7 +52,7 @@ const displayCountdowns = (birthdays) => {
         countdownDiv.className = 'birthday';
         countdownDiv.innerHTML = `
             <h2>${name}</h2>
-            <p>Birthday Countdown:<br><span id="countdown-${name}"></span></p>
+            <p>Birthday Countdown:<br><span id="countdown-${name}"><br></span></p>
         `;
         countdownsDiv.appendChild(countdownDiv);
     });
